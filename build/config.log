@@ -1,0 +1,37 @@
+# project  configured on Wed Dec  3 17:38:27 2014 by
+# waf 1.8.2 (abi 98, python 30402f0 on linux)
+# using /usr/bin/waf configure
+#
+----------------------------------------
+Setting top to
+/home/michael/dev/astroengine
+----------------------------------------
+Setting out to
+/home/michael/dev/astroengine/build
+----------------------------------------
+Checking for 'gcc' (C compiler)
+find program=['gcc', 'cc'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/bin', '/opt/android-sdk/platform-tools', '/opt/android-sdk/tools', '/usr/lib/jvm/default/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl'] var='CC' -> ['/usr/bin/gcc']
+find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/bin', '/opt/android-sdk/platform-tools', '/opt/android-sdk/tools', '/usr/lib/jvm/default/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl'] var='AR' -> ['/usr/bin/ar']
+/usr/bin/gcc
+----------------------------------------
+Checking for 'g++' (C++ compiler)
+find program=['g++', 'c++'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/bin', '/opt/android-sdk/platform-tools', '/opt/android-sdk/tools', '/usr/lib/jvm/default/bin', '/usr/bin/site_perl', '/usr/bin/vendor_perl', '/usr/bin/core_perl'] var='CXX' -> ['/usr/bin/g++']
+(tool ar is already loaded, skipping)
+/usr/bin/g++
+------------------------------------------
+Checking for compiler flags ['-std=c++14']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_155ab7c02e38afb3b7714dcefb5b26d6/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++14', '../test.cpp', '-c', '-o', '/home/michael/dev/astroengine/build/.conf_check_155ab7c02e38afb3b7714dcefb5b26d6/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_155ab7c02e38afb3b7714dcefb5b26d6/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/michael/dev/astroengine/build/.conf_check_155ab7c02e38afb3b7714dcefb5b26d6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes

@@ -1,0 +1,11 @@
+srcdir = '.'
+blddir = 'build'
+
+def set_options(opt):
+    pass
+
+def configure(conf):
+    pass
+
+def build(bld):
+    pass
